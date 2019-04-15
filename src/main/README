@@ -1,0 +1,11 @@
+The file `full.cfg` contains the cfg that is almost the full set of the java grammar.
+
+The file `input.annotated` contains all the production rules specified in `full.cfg`. The difference is that
+some of the production rules are disabled by inserting `-` at the beginning of the line. This way we can quickly
+diff full.cfg input.annotated to see which production rule is disabled and why
+
+To build the input for the parse table generator:
+
+`
+./genInput.sh input.annotated
+`
