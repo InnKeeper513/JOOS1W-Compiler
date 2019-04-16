@@ -1,16 +1,16 @@
 import java.io.File
 
-import Scanner.tokenizeJoos1w
-import Scanner.LexerException
-import Parser.parseJoos1w
-import Parser.ParserException
-import Weeding._
-import Asts.{CompilationUnit, treeToAst}
-import Environments._
-import Disambiguation.{DisambiguateException, TypeCheckingException}
-import StaticAnalysis.{ReachabilityException, DefiniteAssignmentException, joos1wA4}
+import A1.Scanner.tokenizeJoos1w
+import A1.Scanner.LexerException
+import A1.Parser.parseJoos1w
+import A1.Parser.ParserException
+import A1.Weeding._
+import A2.Asts.{CompilationUnit, treeToAst}
+import A2.Environments._
+import A3.Disambiguation.{DisambiguateException, TypeCheckingException}
+import A4.StaticAnalysis.{ReachabilityException, DefiniteAssignmentException, joos1wA4}
 import org.scalatest.FunSuite
-import Utils._
+import Util.Utils._
 
 import scala.reflect.ClassTag
 

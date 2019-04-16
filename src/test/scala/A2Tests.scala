@@ -1,16 +1,16 @@
 import java.io.File
 
 import scala.reflect.ClassTag
-import Scanner.tokenizeJoos1w
-import Scanner.LexerException
-import Parser.parseJoos1w
-import Parser.ParserException
-import Weeding._
-import Asts.{CompilationUnit, treeToAst}
-import Environments._
+import A1.Scanner.tokenizeJoos1w
+import A1.Scanner.LexerException
+import A1.Parser.parseJoos1w
+import A1.Parser.ParserException
+import A1.Weeding._
+import A2.Asts.{CompilationUnit, treeToAst}
+import A2.Environments._
 import org.scalatest.FunSuite
-import Utils._
-import Environments.HierarchyCheckingException
+import Util.Utils._
+import A2.Environments.HierarchyCheckingException
 
 class A2Tests extends FunSuite {
 

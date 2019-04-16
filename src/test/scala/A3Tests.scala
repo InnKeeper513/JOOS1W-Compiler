@@ -1,16 +1,16 @@
 import java.io.File
 
 import scala.reflect.ClassTag
-import Scanner.tokenizeJoos1w
-import Scanner.LexerException
-import Parser.parseJoos1w
-import Parser.ParserException
-import Weeding._
-import Asts.{CompilationUnit, treeToAst}
-import Environments._
-import Disambiguation.{DisambiguateException, TypeCheckingException, joos1wA3}
+import A1.Scanner.tokenizeJoos1w
+import A1.Scanner.LexerException
+import A1.Parser.parseJoos1w
+import A1.Parser.ParserException
+import A1.Weeding._
+import A2.Asts.{CompilationUnit, treeToAst}
+import A2.Environments._
+import A3.Disambiguation.{DisambiguateException, TypeCheckingException, joos1wA3}
 import org.scalatest.FunSuite
-import Utils._
+import Util.Utils._
 
 class A3Tests extends FunSuite {
 
@@ -101,8 +101,8 @@ class A3Tests extends FunSuite {
   }
 
   test("single file test") {
-    val file = new File(root.getAbsolutePath + "/Je_6_ClosestMatch_ArrayTypes.java")
-    assertRejectBecauseOf[Throwable](file.getName, Seq(file))
+    val file = new File(root.getAbsolutePath + "/Je_6_InstanceOf_Primitive_3.java")
+    assertPass(file.getName, Seq(file))
   }
 
 }

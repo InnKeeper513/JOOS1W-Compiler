@@ -1,4 +1,4 @@
-import Scanner._
+import A1.Scanner._
 import org.scalatest.FunSuite
 
 class DFATests extends FunSuite {

@@ -1,9 +1,9 @@
 import scala.reflect.ClassTag
-import Scanner.tokenizeJoos1w
-import Scanner.LexerException
-import Parser.parseJoos1w
-import Parser.ParserException
-import Weeding._
+import A1.Scanner.tokenizeJoos1w
+import A1.Scanner.LexerException
+import A1.Parser.parseJoos1w
+import A1.Parser.ParserException
+import A1.Weeding._
 import org.scalatest.FunSuite
 
 class TestcaseTests extends FunSuite {

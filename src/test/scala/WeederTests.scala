@@ -1,6 +1,6 @@
-import Scanner.tokenizeJoos1w
-import Parser.parseJoos1w
-import Weeding._
+import A1.Scanner.tokenizeJoos1w
+import A1.Parser.parseJoos1w
+import A1.Weeding._
 import org.scalatest.FunSuite
 
 class WeederTests extends FunSuite {
