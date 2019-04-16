@@ -1,0 +1,2 @@
+export SBT_OPTS="-Xms1024M -Xmx1024M -Xss1024M -XX:MaxMetaspaceSize=1024M"
+/u/cs444/bin/scala -J-Xms1024M -J-Xmx1024M -J-Xss1024M -J-XX:MaxMetaspaceSize=1024M joos1w.jar $@
